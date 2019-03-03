@@ -22,6 +22,11 @@
         
         <h3><bean:message key="welcome.heading"/></h3>
         <p><bean:message key="welcome.message"/></p>
-        
+        <%
+            for(int j=0;j<10;j++)
+            {
+                System.out.println("Welcome to :"+j);
+            }
+        %>
     </body>
 </html:html>
